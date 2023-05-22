@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">islamic project</string>
+    <string name="quran">القرآن</string>
+    <string name="ahadeth">الاحاديث</string>
+    <string name="sebha">تسبيح</string>
+    <string name="radio">الراديو</string>
+    <string name="islami">إسلامي</string>
+    <string name="tasbeeh_text_string">عدد التسبيحات</string>
+</resources>

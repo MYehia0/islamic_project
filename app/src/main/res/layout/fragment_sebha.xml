@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/default_bg">
+
+        <ImageView
+        android:id="@+id/head_sebha"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/head_sebha_logo"
+        android:adjustViewBounds="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintHeight_percent=".12"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/body_sebha"
+        app:layout_constraintStart_toStartOf="@id/body_sebha"
+        app:layout_constraintEnd_toEndOf="@id/body_sebha"
+        />
+
+    <ImageView
+        android:id="@+id/body_sebha"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="80dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/body_sebha_logo"
+        app:layout_constraintHeight_percent=".33"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        style="@style/quran_style"
+        android:id="@+id/num_of_tasbeeh_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="@string/tasbeeh_text_string"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/body_sebha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        style="@style/quran_style"
+        android:id="@+id/num_of_tasbeeh_count_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:padding="25dp"
+        android:text="0"
+        android:background="@drawable/tasbeeh_count_bg"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/num_of_tasbeeh_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/sebha_button_style"
+        android:id="@+id/tasbeeh_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:padding="15dp"
+        tools:text="سبحان الله"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintWidth_percent=".4"
+        app:layout_constraintTop_toBottomOf="@id/num_of_tasbeeh_count_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
