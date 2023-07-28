@@ -1,5 +1,5 @@
 # **Islami-App**
-
+This app show quran to you and each sura has sura content so you can choose any sura to read it and you can read the sura content when click on it and it show ahadeth to you and each hadeth has hadeth content so you can choose any hadeth to read it and you can read the hadeth content when click on it and you can use sebha and you can play quran radio also you can convert the app them to night or light.
 
 ## **Topics**
 + ##### Fragments
