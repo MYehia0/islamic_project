@@ -4,7 +4,6 @@ This app show quran to you and each sura has sura content so you can choose any 
 ## **Topics**
 + ##### Fragments
 + ##### Recycler View
-+ ##### View binding
 
 
 ## **Images**
