@@ -1,8 +1,7 @@
-package com.example.islamic_project
+package com.example.islamic_project.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.fragment.app.Fragment
@@ -10,6 +9,7 @@ import com.example.islamic_project.Fragments.AhadethFragment
 import com.example.islamic_project.Fragments.QuranFragment
 import com.example.islamic_project.Fragments.RadioFragment
 import com.example.islamic_project.Fragments.SebhaFragment
+import com.example.islamic_project.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
             }else{
                 AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
             }
+            bottomNavigationItemView.selectedItemId = R.id.quran
         }
     }
     fun pushFragment(fragment:Fragment){

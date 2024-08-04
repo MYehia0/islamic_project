@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.islamic_project.*
 import com.example.islamic_project.Activities.QuranDetailsActivity
 import com.example.islamic_project.Adapters.QuranAdapter
-import com.example.islamic_project.onQuranClickListener
+import com.example.islamic_project.Activities.onQuranClickListener
 import com.example.islamic_project.DataClasses.ArSuras
 import com.example.islamic_project.DataClasses.Constants
 import com.example.islamic_project.DataClasses.ayatNumber

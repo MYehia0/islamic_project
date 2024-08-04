@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/default_bg">
 
         <ImageView
@@ -26,41 +27,62 @@
         android:layout_height="wrap_content"
         android:layout_margin="25dp"
         android:text="إذاعة القرآن الكريم"
-        android:textSize="32sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@id/radio_logo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
 
-    <ImageView
+    <TextView
+        style="@style/quran_style"
+        android:id="@+id/channel_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        tools:text="إذاعة القرآن الكريم"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/radio_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button_play"
+        />
+
+    <ImageButton
         android:id="@+id/button_prev"
         android:layout_width="40dp"
         android:layout_height="60dp"
         android:layout_margin="50dp"
-        app:srcCompat="@drawable/ic_prev"
+        android:src="@drawable/ic_prev"
+        android:scaleType="fitCenter"
+        android:background="@color/trans"
         app:layout_constraintTop_toBottomOf="@id/radio_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/button_play"
         />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/button_play"
         android:layout_width="65dp"
         android:layout_height="100dp"
         android:layout_margin="35dp"
-        app:srcCompat="@drawable/ic_play"
+        android:src="@drawable/ic_play"
+        android:scaleType="fitCenter"
+        android:background="@color/trans"
         app:layout_constraintTop_toBottomOf="@id/radio_text"
         app:layout_constraintEnd_toStartOf="@id/button_next"
         app:layout_constraintStart_toEndOf="@id/button_prev"
         />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/button_next"
         android:layout_width="40dp"
         android:layout_height="60dp"
         android:layout_margin="50dp"
-        app:srcCompat="@drawable/ic_next"
+        android:src="@drawable/ic_next"
+        android:scaleType="fitCenter"
+        android:background="@color/trans"
         app:layout_constraintStart_toEndOf="@id/button_play"
         app:layout_constraintTop_toBottomOf="@id/radio_text"
         app:layout_constraintEnd_toEndOf="parent"

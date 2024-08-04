@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.islamic_project.R
-import com.example.islamic_project.onQuranClickListener
+import com.example.islamic_project.Activities.onQuranClickListener
 
 class QuranAdapter(var Items: List<String>,var Ayat: List<String>) : androidx.recyclerview.widget.RecyclerView.Adapter<QuranAdapter.QuranViewHolder>() {
 

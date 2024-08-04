@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.islamic_project.*
 import com.example.islamic_project.Activities.AhadethDetailsActivity
 import com.example.islamic_project.Adapters.AhadethAdapter
-import com.example.islamic_project.onAhadethClickListener
+import com.example.islamic_project.Activities.onAhadethClickListener
 import com.example.islamic_project.DataClasses.AhadethItems
 import com.example.islamic_project.DataClasses.Constants
 import com.example.islamic_project.DataClasses.allAhadeth
