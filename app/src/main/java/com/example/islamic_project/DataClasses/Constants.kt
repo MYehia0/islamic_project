@@ -5,4 +5,5 @@ object Constants {
     val EXSTRA_QURAN_NAME_KEY = "QuranName"
     val EXSTRA_Ahadeth_POSITION = "AhadethPosition"
     val EXSTRA_Ahadeth_NAME_KEY = "AhadethName"
+    var STATE_PLAY_BUTTON = "Play"
 }

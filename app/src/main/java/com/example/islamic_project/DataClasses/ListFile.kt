@@ -1,7 +1,5 @@
 package com.example.islamic_project.DataClasses
 
-import android.widget.ArrayAdapter
-
 
 var ArSuras = listOf(
     "الفاتحه",

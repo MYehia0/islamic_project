@@ -7,7 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.example.islamic_project.DataClasses.AhadethItems
 import com.example.islamic_project.R
-import com.example.islamic_project.onAhadethClickListener
+import com.example.islamic_project.Activities.onAhadethClickListener
 
 class AhadethAdapter(var Items: List<AhadethItems>) : androidx.recyclerview.widget.RecyclerView.Adapter<AhadethAdapter.AhadethViewHolder>() {
 
